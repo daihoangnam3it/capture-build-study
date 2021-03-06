@@ -6,6 +6,9 @@ const GlobalStyle=createGlobalStyle`
   --color-button:#fff;
   --color-p:#ccc;
   --color-dreams:#23d997;
+  --color-line:#fff;
+  --color-nav:#282828;
+  --color-nav-link:#fff;
 }
   *{
     margin:0;
@@ -39,6 +42,7 @@ const GlobalStyle=createGlobalStyle`
     color:var(--color-button);
   }
   h4{
+    font-size:2rem;
     font-weight:bold;
   }
   a{

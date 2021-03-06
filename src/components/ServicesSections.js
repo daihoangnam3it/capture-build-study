@@ -1,7 +1,7 @@
 import React from 'react'
 
 import styled from 'styled-components'
-import {About} from '../styles'
+import {About,Image} from '../styles'
 
 // icon
 import clock from '../img/clock.svg'
@@ -46,9 +46,9 @@ const ServicesSections = () => {
           </Card>
         </Cards>
       </div>
-      <div className="image">
+      <Image>
         <img src={home2} alt="camera gear"/>
-      </div>
+      </Image>
     </Services>
   )
 }
